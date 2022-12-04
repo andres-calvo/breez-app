@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const AboutMe = () => {
   return (
-    <section className="max-w-xs md:max-w-xl">
+    <section className="max-w-xs md:max-w-xl flex flex-col items-center">
       <h2 className="font-black text-3xl text-center">About Me</h2>
-      <p className="mt-3">
+      <p className="my-3 ">
         Hi my name is Andres Calvo, Lead Frontend Developer at{" "}
         <Link
           passHref
@@ -22,6 +23,14 @@ export const AboutMe = () => {
         Passionate about software architecture , 3D Rendering and Virtual
         Reality Development.
       </p>
+      <Link href={"https://github.com/andres-calvo"} target={"_blank"}>
+        <Image
+          src={"/github.png"}
+          alt="Repository Link"
+          width={150}
+          height={100}
+        ></Image>
+      </Link>
     </section>
   );
 };

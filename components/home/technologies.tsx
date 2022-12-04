@@ -3,7 +3,7 @@ export const Technologies = () => {
       "Javascript",
       "Typescript",
       "Python",
-      "NodeJS with Electron",
+      "NodeJS",
       "HTML",
       "CSS",
       "SCSS",
@@ -14,14 +14,7 @@ export const Technologies = () => {
       "Gatsby",
       "NextJS",
       "Astro",
-      "AWS API Gateway",
-      "AWS Lambda",
-      "AWS S3",
-      "AWS EC2",
-      "AWS Cognito",
-      "AWS CodeCommit",
-      "AWS CodePipeline",
-      "AWS Route53",
+      "AWS",
     ];
     return (
       <section className=" max-w-xs md:max-w-xl">

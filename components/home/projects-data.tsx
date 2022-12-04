@@ -36,7 +36,7 @@ export const PROJECTSDATA: Array<Project> = [
         <p>
           <span>
             3d Multiplayer Ludo , pick the amount of players and the amount of
-            ludo chips and hit 'Enviar' button.
+            ludo chips and hit &apos;Enviar&apos; button.
           </span>
           <br />
           <span>You can rotate the 3d view of the game</span>
@@ -68,7 +68,7 @@ export const PROJECTSDATA: Array<Project> = [
           </span>
           . <br />
           <span>
-            Each rectangle it's by itself a draggable component.You can drag it
+            Each rectangle it is by itself a draggable component.You can drag it
             freely
           </span>
           <br />
